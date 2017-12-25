@@ -1,0 +1,27 @@
+
+Computer assignment 03.
+
+1. Given a signal x(t) that is not strictly band limited. Devise a method for finding the sampling rate.
+
+An example:
+1. Generate a signal
+x(t) = t + T   for  -T < t < 0
+     = T-t     for  0 < t < T
+
+2. Determine its fourier transform using the matlab function fft
+
+3. Plot the fourier transform X(w) versus frequency and verify it is band limited or not
+
+4. Now define a new way of deciding the bandwidth of the signal.
+For example: the spectral width in which most of the energy resides. ("most of the" means 99%)
+
+5. Next, based on this new bandwidth define the sampling rate.
+
+6. Evaluate the fourier transform based on theoretical definition.
+Compute the energies using the integral formula for energy and determine the location at which the partial energy is 99%.
+
+Verify if the bandwidth values from the two methods agree.
+
+Finally write a report with the code, figures and analysis sections.
+
+
